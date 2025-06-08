@@ -1,3 +1,12 @@
+This Python script calculates the average marks of a student from a list of student records.  
+It demonstrates how to:
+- Read and process user input
+- Store data using dictionaries
+- Calculate mean using the `statistics` module
+- Format output to two decimal places using f-strings
+
+
+
 if __name__ == '__main__':
     
     import statistics
