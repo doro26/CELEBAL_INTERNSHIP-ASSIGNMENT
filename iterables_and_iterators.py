@@ -1,4 +1,10 @@
-# Enter your code here. Read input from STDIN. Print output to STDOUT
+# This script calculates the probability that a randomly chosen combination of size K
+# from a list of elements contains the character 'a'.
+# It uses itertools.combinations to generate all possible combinations,
+# counts those including 'a', and computes the ratio of such combinations to total combinations.
+# A practical example to learn about combinatorics, use of itertools, and probability calculation in Python.
+
+
 import itertools
 N=int(input())
 L=input().split()
